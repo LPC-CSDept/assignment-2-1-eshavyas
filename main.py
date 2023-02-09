@@ -2,23 +2,18 @@ def main():
     ##################################################
     # Comlete your code here
     ##################################################
- 
-   #input 
-   numM= int((input())) #input() returns string value. Need to change it to INT value. 
-   # num= int(numM)
-   numF= int(input())
-   
-   #calculation 
-   #total =numM +numF
-   percM = numM / (numM + numF ) *100 
-   percF = numF / (numM+ numF) *100
+    reg_hours = 40 
+    reg_rate = 18.25 
+    o_rate = 27.78
 
-   #output 
-   print ('Total ', numM + numF)
-   print ('Number of males and females' ,numM, numF)
-  # print ( f ' Percentage of males and females : {percM : 2f} {percF : 2F }) 
-#pass
-
+    hrs= input ('Enter Hours:')
+    h = float (hrs)
+    x = float(xx)
+    if h>= 40 :
+    print (h * x)
+    elif h > 40:
+    print(40* x + (h-40)*1.5*x)
+    pass
 
 
 

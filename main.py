@@ -2,6 +2,7 @@ def main():
     ##################################################
     # Comlete your code here
     ##################################################
+ 
    #input 
    numM= int((input())) #input() returns string value. Need to change it to INT value. 
    # num= int(numM)
